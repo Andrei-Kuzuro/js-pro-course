@@ -1,0 +1,46 @@
+.onlinerPost {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+    margin: 10px 0;
+    background-size: cover;
+}
+
+
+.info {
+    display: flex;
+    padding: 5px 20px;
+}
+
+.category {
+    display: block;
+    padding: 5px 10px;
+    background-color: yellow;
+    color: black;
+    line-height: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.commentCount {
+    display: block;
+    margin-left: auto;
+    padding: 5px;
+    background-color: rgba(129, 127, 127, 0.64);
+    border: 1px solid yellow;
+    border-radius: 2px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.title {
+    width: 80%;
+    display: flex;
+    padding: 0 20px;
+    margin-top:  auto;
+    text-align: left;
+    color: #f8f5f5;
+}
