@@ -16,19 +16,17 @@ console.log(sum(1, 2, 4, 6, 8, 9));
  если такое значение есть в массиве и -1 если его нет.
 (indexOf, findIndex не использовать) */
 
-function findIndex(arr05, value) {
-  let rez = [];
-  arr05.forEach((el, i) => {
-    if (el === value) {
-      rez = i;
-    } else {
-      rez = -1;
+function findIndex(arr, value) {
+  return arr.reduce((prev, curr, index) => {
+    if (curr === value) {
+      return index;
     }
-  });
-  return rez;
+
+    return prev;
+  }, -1);
 }
 
-console.log(findIndex([1, 2, 3, 4, 5], 5)); //  -  работает только для последнего аргумента в массиве
+console.log(findIndex([1, 2, 3, 4, 5], 5));
 
 /* Написать функцию, которая будет 
 возвращать количество вызовов этой функции в квадрате.

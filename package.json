@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrei-Kuzuro/js-pro-course.git"
+  },
+  "author": "Andrei Kuzuro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrei-Kuzuro/js-pro-course/issues"
+  },
+  "homepage": "https://github.com/Andrei-Kuzuro/js-pro-course#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
