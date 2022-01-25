@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: #f8f5f5;
+    justify-content: space-around;
+}
+
+.memories {
+    margin-top: 30px;
+}
+
+.memories img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
